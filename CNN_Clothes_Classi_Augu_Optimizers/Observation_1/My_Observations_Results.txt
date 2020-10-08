@@ -1,0 +1,27 @@
+Adadelta :
+Accuracy - 62.500
+Time of Learning - 1094 sec
+
+
+SGD + Momentum: SGD(lr=0.001, momentum=0.9)
+Accuracy - 90.000
+Time of Learning - 102.29 sec
+
+
+SGD+Nesterov Accelerated Gradient Descent: SGD(momentum=0.01, nesterov=True)
+Accuracy - 90.000
+Time of Learning - 82 sec
+
+RMSprop: RMSprop(lr=0.001)
+Accuracy - 95.000
+Time of Learning -64 sec
+
+
+Adam : Adam(learning_rate=0.001)
+Accuracy - 95.000
+Time of Learning - 57.01 sec
+
+
+Nadam:Nadam(lr=0.001)
+Accuracy - 95.000
+Time of Learning - 66.62 sec 
